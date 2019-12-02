@@ -18,7 +18,7 @@ function renderTodos(){
         linkElement.setAttribute('href', '#');
 
         var pos =todos.indexOf(todo);
-        listElement.setAttribute('onclick', 'deleteTodo('+ pos +')');
+        linkElement.setAttribute('onclick', 'deleteTodo('+ pos +')');
 
         var linkText = document.createTextNode('Excluir');
 
